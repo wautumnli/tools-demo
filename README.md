@@ -1,2 +1,2 @@
-# gradle-demo
-gradle的demo模版
+# tools-demo
+tools工具
