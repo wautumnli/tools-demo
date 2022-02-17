@@ -1,0 +1,23 @@
+// 构建
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+// 所有项目所配置
+allprojects {
+    group project_group
+    version project_version
+}
+
+// 子项目配置
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}

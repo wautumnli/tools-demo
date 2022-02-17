@@ -1,0 +1,6 @@
+rootProject.name = 'tools-demo'
+include 'tools-core'
+include 'tools-poi'
+include 'tools-crypto'
+include 'tools-cache'
+
